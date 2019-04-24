@@ -3,24 +3,64 @@
 
 .logo {
     height: 3.25rem;
-
+    margin-left: 3rem;
 }
 
 
 ///////////////////////////////
 //SEARCH
 .search{
-    &__input {
 
+    flex: 0 0 40%;
+
+    //to layout search input and search icon 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__input {
+        //input does not inherit font preperty from parent.
+        font-family: inherit;
+        font-size: inherit;
+        background-color: var(--light-grey-2);
+        border: none;
+        padding: .7rem 2rem;
+        border-radius: 100px;
+        width: 90%;
+        transition: all .2s;
+        margin-left: -3.25rem;
+        &:focus {
+            outline: none;
+            width: 100%;
+            background-color: var(--grey-light-3);
+        }
+
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: var(--grey-light-4);
+        }
+    }
+
+    &__input:focus + &__button {
+        background-color: var(--grey-light-3);
     }
 
     &__button {
+        border:none;
+        background-color: var(--grey-light-2);
 
+        &:focus {
+            outline: none;
+        }
+
+        &:active {
+            transform: translateY(2px);
+        }
     }
 
     &__icon {
         height: 3rem;
         width: 2rem;
+        fill: var(--grey-dark-3);
     }
 
 }
