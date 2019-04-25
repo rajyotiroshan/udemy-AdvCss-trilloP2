@@ -37,7 +37,7 @@ body {
 
 .logo {
   height: 3.25rem;
-  margin-left: 3rem; }
+  margin-left: 2rem; }
 
 .search {
   flex: 0 0 40%;
@@ -77,7 +77,7 @@ body {
 
 .user-nav {
   align-self: stretch;
-  display: felx;
+  display: flex;
   align-items: center; }
   .user-nav > * {
     padding: 0 2rem;
@@ -120,6 +120,7 @@ body {
 
 .header {
   font-size: 1.4rem;
+  height: 6rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
   display: flex;
