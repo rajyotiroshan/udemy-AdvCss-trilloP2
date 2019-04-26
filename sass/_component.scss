@@ -289,7 +289,10 @@
     background-color: transparent;
     cursor: pointer;
     transition: all .3s;
-
+    & span {
+        margin-left:3px;
+        transition: margin-left .2s;
+    }
     &:focus {
         outline: none;
         animation: pulsate 1s infinite;
@@ -298,6 +301,9 @@
 
     &:hover {
         color: var(--grey-dark-1);
+        span {
+            margin-left: 8px;
+        }
     }
 }
 
