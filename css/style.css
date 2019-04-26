@@ -242,7 +242,7 @@ body {
   padding: 3rem 0;
   border-top: var(--line);
   border-bottom: var(--line);
-  display: felx;
+  display: flex;
   flex-wrap: wrap; }
   .list__item {
     flex: 0 0 50%;
@@ -262,7 +262,7 @@ body {
 .recommend {
   font-size: 1.3rem;
   color: var(--grey-dark-3);
-  display: felx;
+  display: flex;
   align-items: center; }
   .recommend__count {
     margin-right: auto; }
@@ -271,7 +271,7 @@ body {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    border: 3ps solid #fff; }
+    border: 3px solid #fff; }
     .recommend__photo:not(:last-child) {
       margin-right: -1.5rem; }
 
