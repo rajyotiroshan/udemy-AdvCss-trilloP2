@@ -17,6 +17,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--grey-light-2);
+
+    @media only screen and (max-width: $bp-smallest) {
+        order: 1;
+        flex: 0 0 100%;
+    }
+
     &__input {
         //input does not inherit font preperty from parent.
         font-family: inherit;
