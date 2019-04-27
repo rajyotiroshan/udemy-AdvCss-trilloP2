@@ -436,6 +436,10 @@
     padding: 3rem;
     margin-bottom: 3.5rem;
     overflow: hidden;//hide overflowed dlquote
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
 
     position: relative;
     &__text {
@@ -500,6 +504,10 @@
 .cta {
     padding: 3.5rem 0;
     text-align: center;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2.5rem 0;
+    }
     &__book-now {
         font-size: 1.5rem;
         font-weight: 300;
