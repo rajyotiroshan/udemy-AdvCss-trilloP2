@@ -1,7 +1,7 @@
 
-## Future Imrovement
+### Future Imrovement
 
-### hovering over user popup user menu
++ hovering over user, popup user menu
 
-### clicking or hovering over msg         icon popup msg menu
++  clicking or hovering over msg-icon, popup msg menu
 
